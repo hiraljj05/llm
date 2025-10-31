@@ -1,7 +1,15 @@
+# FastAPI core
 fastapi>=0.100.0
 uvicorn[standard]>=0.22.0
+
+# AI integrations
 openai>=1.29.0
 google-cloud-aiplatform>=1.30.0
+transformers>=4.44.0
+torch>=2.2.0
+huggingface-hub>=0.24.0
+
+# Utilities
 python-dotenv>=1.0.0
 httpx>=0.24.0
 pydantic>=1.10.7
